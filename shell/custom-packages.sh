@@ -47,3 +47,17 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
 # Easytier
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 
+# USB 网络驱动模块
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-rndis"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ncm"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-huawei-cdc-ncm"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-eem"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ether"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-subset"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nls-base"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-core"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES libudev-fbsd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES usbutils"
+
